@@ -1,0 +1,36 @@
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+.input-group__input {
+    flex:1 0 auto;
+    height: 30px;
+}
+
+.input-group__button {
+    flex: 0 0 auto;
+    border-radius: 5px;
+    color: darkslategray;
+    border: 1px solid lightgray;
+    background-image:
+            linear-gradient(
+                    white, lightgray
+            );
+    padding: 0 15px;
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+.input-group__text {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+[dir="rtl"] .input-group__button {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
