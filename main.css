@@ -26,7 +26,7 @@
 .input-group__text {
     font-size: 14px;
     color: gray;
-    margin: 0;
+    margin: 5px 0;
 }
 
 [dir="rtl"] .input-group__button {
